@@ -98,8 +98,7 @@ export default {
 
       if (
         this.formData.imageFile.size > 5242880 ||
-        this.formData.imageFile.type !== "image/jpeg" ||
-        this.formData.imageFile.type === "image/png"
+        this.formData.imageFile.type !== "image/jpeg"
       ) {
         this.validUploadInput = true;
       } else {
